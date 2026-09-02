@@ -65,7 +65,6 @@ def _generate_insights(engine: DataEngine, table_name: str) -> None:
 
 # ──────────────────────────────────────────── sidebar
 with st.sidebar:
-    st.markdown("## ◧ ChatBI")
 
     st.markdown("### Setup")
     if "GROQ_API_KEY" in st.secrets or os.environ.get("GROQ_API_KEY"):
@@ -183,7 +182,7 @@ with st.sidebar:
 
 
 # ──────────────────────────────────────────── main area
-st.markdown("## Querydeck")
+st.markdown("## AI Analytics Dashboard")
 st.caption("Ask in plain English — charts or result tables depending on what you need.")
 
 if not engine.tables:
