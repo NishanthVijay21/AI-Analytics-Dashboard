@@ -1,6 +1,8 @@
 streamlit
 duckdb
 pandas
+numpy
 groq
 python-dotenv
+sqlglot
 openpyxl
